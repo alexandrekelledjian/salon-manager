@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logoWrapper {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: #222;
+}
+
+.address {
+    color: #555;
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+}
+
+.info {
+    margin: 0.5rem 0;
+    color: #444;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.errorCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 3rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.errorTitle {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ccc;
+    margin: 0 0 1rem 0;
+}
+
+.errorMessage {
+    font-size: 1.125rem;
+    color: #666;
+    margin: 0;
+}
