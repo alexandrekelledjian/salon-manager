@@ -1,71 +1,153 @@
 .container {
-    max-width: 600px;
-    margin: 0 auto;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
 }
 
 .loading {
-    text-align: center;
-    color: #666;
-    padding: 2rem;
+      text-align: center;
+      color: #666;
+      font-size: 1rem;
 }
 
 .card {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
 }
 
 .logoWrapper {
-    text-align: center;
-    margin-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
 }
 
 .logo {
-    max-width: 150px;
-    max-height: 150px;
-    object-fit: contain;
+      max-width: 150px;
+      max-height: 150px;
+      object-fit: contain;
 }
 
 .name {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin: 0 0 0.5rem 0;
-    color: #222;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 1rem 0;
 }
 
 .address {
-    color: #555;
-    margin: 0 0 1rem 0;
-    font-size: 1rem;
+      color: #666;
+      margin: 0 0 1rem 0;
+      line-height: 1.5;
 }
 
 .info {
-    margin: 0.5rem 0;
-    color: #444;
+      color: #444;
+      margin: 0.5rem 0;
 }
 
 .label {
-    font-weight: 600;
+      font-weight: 600;
+      color: #333;
 }
 
 .errorCard {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 3rem 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 3rem 2rem;
+      text-align: center;
 }
 
 .errorTitle {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #ccc;
-    margin: 0 0 1rem 0;
+      font-size: 3rem;
+      font-weight: 700;
+      color: #e53e3e;
+      margin: 0 0 1rem 0;
 }
 
 .errorMessage {
-    font-size: 1.125rem;
-    color: #666;
-    margin: 0;
+      color: #666;
+      font-size: 1.1rem;
+      margin: 0;
+}
+
+.productsSection {
+      margin-top: 2rem;
+}
+
+.productsTitle {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 0 0 1.5rem 0;
+      text-align: center;
+}
+
+.productsLoading,
+.productsEmpty {
+      text-align: center;
+      padding: 1.5rem;
+      color: #666;
+      font-size: 0.95rem;
+      background: #f9fafb;
+      border-radius: 8px;
+}
+
+.productsError {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+      color: #e53e3e;
+      background: #fff5f5;
+      border-radius: 8px;
+}
+
+.productsGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+}
+
+.productCard {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+}
+
+.productImageWrapper {
+      height: 140px;
+      background: #f3f4f6;
+}
+
+.productImage {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.productInfo {
+      padding: 1rem;
+}
+
+.productName {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 0 0 0.5rem 0;
+}
+
+.productDescription {
+      font-size: 0.875rem;
+      color: #666;
+      margin: 0 0 0.5rem 0;
+      line-height: 1.4;
+}
+
+.productPrice {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #2563eb;
+      margin: 0;
 }
